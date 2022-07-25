@@ -19,7 +19,7 @@ const NavComponent = (props) => {
           <div className="container-fluid">
             {/* navbarNav */}
             <div
-              className="collapse navbar-collapse"
+              // className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav">
