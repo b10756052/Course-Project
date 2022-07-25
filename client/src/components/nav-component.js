@@ -15,7 +15,7 @@ const NavComponent = (props) => {
   return (
     <div>
       <nav>
-        <nav className="navbar  navbar-light bg-light">
+        <nav className="navbar navbar-expand-md navbar-expand-xs navbar-light bg-light">
           <div className="container-fluid">
             {/* navbarNav */}
             <div
