@@ -1,5 +1,5 @@
 import axios from "axios";
-const APL_URL = "http://localhost:8080/api/courses";
+const APL_URL = "https://mern-course-project.herokuapp.com/api/courses";
 
 class CourseService {
   post(title, description, price) {
