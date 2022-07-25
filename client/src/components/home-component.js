@@ -1,6 +1,9 @@
 import React from "react";
 
 const HomeComponent = () => {
+  const alertFunction = () => {
+    alert("此專案為MERN練習用，該功能未完成！");
+  };
   return (
     <main>
       <div className="container py-4">
@@ -13,7 +16,11 @@ const HomeComponent = () => {
               project, which is one of the most popular way to create modern
               websites.
             </p>
-            <button className="btn btn-primary btn-lg" type="button">
+            <button
+              onClick={alertFunction}
+              className="btn btn-primary btn-lg"
+              type="button"
+            >
               See how it works.
             </button>
           </div>
@@ -28,7 +35,11 @@ const HomeComponent = () => {
                 practice purpose only, so please do not provide any personal
                 information, such as credit card numbers.
               </p>
-              <button className="btn btn-outline-light" type="button">
+              <button
+                onClick={alertFunction}
+                className="btn btn-outline-light"
+                type="button"
+              >
                 Login or Register Now
               </button>
             </div>
@@ -42,7 +53,11 @@ const HomeComponent = () => {
                 only, so please do not provide any personal information, such as
                 credit card numbers.
               </p>
-              <button class="btn btn-outline-secondary" type="button">
+              <button
+                onClick={alertFunction}
+                class="btn btn-outline-secondary"
+                type="button"
+              >
                 Login or Register Now
               </button>
             </div>
