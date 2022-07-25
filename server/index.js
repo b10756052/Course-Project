@@ -34,6 +34,10 @@ app.use(
   courseRoute
 );
 
+app.get("/", (req, res) => {
+  res.send("hihi");
+});
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}.`);
 });
